@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.version       = Barber::Emblem::VERSION
 
   gem.add_dependency "barber"
-  gem.add_dependency "emblem-source"
+  gem.add_dependency "emblem-source", ['>=0.3.2']
 
   gem.add_development_dependency "rake"
   gem.add_development_dependency "simplecov"
